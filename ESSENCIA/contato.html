@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato Full Stack Eletro</title>
+    <style>
+        h2 {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+
+        table {
+            background-color: red;
+            width: 100vw;
+        }
+        
+        td {
+            text-align: center;
+            width: 25%;
+        }
+        a {
+            color: white;
+        }
+
+        a > img {
+            width: 100px;
+        }
+
+        #contato {
+            background-color: transparent;
+        }
+        .class-conta {
+            width: 50px;
+        }
+
+        h4 {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 1.2em;
+                color: red;
+                text-align: center;
+
+            }
+
+        footer{
+                width: 100%;
+                position: fixed;
+                padding: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                bottom: 0;
+            }
+
+            footer > div > p {
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+
+            }
+    </style>
+</head>
+<body>
+    <!-- Menu-->
+    <table>
+        <tr>
+            <td><a href="index.html"><img src="./imagens/logo.png" alt="Full 
+                Stack Eletro"></a></td>
+            <td><a href="produtos.html">Nosso produtos</a></td>
+            <td><a href="loja.html">Nossas lojas</a></td>
+            <td><a href="contato.html">Fale conosco</a></td>
+        </tr>
+    </table>
+    <h2>Contato</h2>
+    <hr>
+    <table id="contato">
+        <tr>
+            <td>
+                <img class="class-conta" src="./imagens/email.png">
+                <p>contato@fullstackeletro.com</p>
+            </td>
+            <td>
+                <img class="class-conta"src="./imagens/whatsapp.png">
+                <p> (11) 99999-9999</p>
+            </td>
+        </tr>
+    </table>
+    <form action="">
+        <h3>Nome: </h3>
+        <input type="text">
+        <h3>Mensagem: </h3>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+
+        <input type="submit" value="Enviar">
+    </form>
+    <footer>
+        <div><h4>Formas de pagamento:</h4>
+        <img src="./imagens/formas-pagamento.png" alt="Formas de pagamento">
+        <p>&copy: Recode Pro</p>
+        </div>   
+    </footer>
+</body>
+</html>
